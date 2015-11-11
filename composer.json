@@ -1,0 +1,21 @@
+{
+    "name": "eehandler/eehandler",
+    "type": "library",
+    "description": "PHP Error and Exception Handler",
+    "keywords": ["handler","error","exception","php"],
+    "homepage": "https://github.com/requtize/eehandler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Banaszkiewicz",
+            "homepage": "http://adambanaszkiewicz.pl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {"EEHandler\\": "src/"}
+    }
+}
