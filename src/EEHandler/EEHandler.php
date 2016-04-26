@@ -4,22 +4,22 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * Copyright (c) 2015 by Adam Banaszkiewicz
+ * Copyright (c) 2015 - 2016 by Adam Banaszkiewicz
  *
  * @license   MIT License
- * @copyright Copyright (c) 2015, Adam Banaszkiewicz
+ * @copyright Copyright (c) 2015 - 2016, Adam Banaszkiewicz
  * @link      https://github.com/requtize/eehandler
  */
 
-namespace EEHandler\EEHandler;
+namespace Requtize\EEHandler;
 
-use EEHandler\EEHandler\Renderer;
-use EEHandler\EEHandler\FileSourceRetriever;
-use EEHandler\EEHandler\Exception\ErrorException;
+use Requtize\EEHandler\Renderer;
+use Requtize\EEHandler\FileSourceRetriever;
+use Requtize\EEHandler\Exception\ErrorException;
 
 class EEHandler
 {
-    const VERSION = '0.1.0-alpha';
+    const VERSION = '0.2.0';
 
     public function __construct($environment = 'dev')
     {

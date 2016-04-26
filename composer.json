@@ -1,10 +1,11 @@
 {
-    "name": "eehandler/eehandler",
+    "name": "requtize/eehandler",
     "type": "library",
     "description": "PHP Error and Exception Handler",
-    "keywords": ["handler","error","exception","php"],
+    "keywords": ["handler", "error", "exception", "php"],
     "homepage": "https://github.com/requtize/eehandler",
     "license": "MIT",
+    "version": "0.2.0",
     "authors": [
         {
             "name": "Adam Banaszkiewicz",
@@ -16,6 +17,8 @@
         "php": ">=5.4.0"
     },
     "autoload": {
-        "psr-4": {"EEHandler\\": "src/"}
+        "psr-4": {
+            "Requtize\\EEHandler\\": "src/EEHandler/"
+        }
     }
 }
